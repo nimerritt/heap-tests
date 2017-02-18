@@ -1,0 +1,24 @@
+{
+  "name": "heap-tests",
+  "version": "1.0.0",
+  "description": "Let's see how Node's heap works",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimerritt/heap-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimerritt/heap-tests/issues"
+  },
+  "homepage": "https://github.com/nimerritt/heap-tests#readme",
+  "devDependencies": {
+    "typescript": "2.1.6"
+  }
+}
